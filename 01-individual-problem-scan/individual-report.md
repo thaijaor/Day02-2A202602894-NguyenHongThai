@@ -43,9 +43,9 @@
 - Ý bỏ vì không phải pain thật: vài gợi ý quá rộng hoặc mình ít gặp, nên bỏ để giữ danh sách sát với trải nghiệm của mình.
 
 **Self-check Phase 1:**
-- [ ] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
-- [ ] Dùng ít nhất 3/4 lăng kính
-- [ ] Không có dòng chung chung kiểu "mất nhiều thời gian"
+- [x] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
+- [x] Dùng ít nhất 3/4 lăng kính
+- [x] Không có dòng chung chung kiểu "mất nhiều thời gian"
 
 ---
 
