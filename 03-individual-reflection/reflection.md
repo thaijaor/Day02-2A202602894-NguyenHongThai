@@ -62,12 +62,16 @@ Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (khô
 - Điều khó nhất khi viết Problem Statement là gì, metric hay boundary?
 - Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở điểm nào?
 
-**Reflection:**
+**Reflection:** _(viết sau buổi lab, bằng lời của bạn — worksheet cấm để AI viết thay. Khung gợi ý dưới đây chỉ để bám, xoá đi khi viết thành đoạn 8-12 câu.)_
 
 ```text
-
-
-
+Gợi ý bám (chọn 3-4 ý, viết thành đoạn liền mạch, có chuyện cụ thể):
+- Nghe top 3 của các bạn, mình học được gì / đổi cách nhìn problem nào?
+- Nhóm có lúc nào định nhảy sang Agent cho "ngầu" không? Mình phản ứng sao?
+- Có lúc nào mình bị challenge rồi đổi ý? Đổi từ gì sang gì, vì sao?
+- Phần nào của bản nộp nhóm rõ là dấu tay mình?
+- Viết Problem Statement, khó nhất là metric hay boundary? Vì sao?
+- Nếu làm lại, mình sẽ challenge nhóm mạnh hơn ở điểm nào?
 ```
 
 ---
