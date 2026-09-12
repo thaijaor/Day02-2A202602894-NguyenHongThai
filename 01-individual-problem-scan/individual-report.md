@@ -8,11 +8,11 @@
 - Mã học viên: 2A202602894
 - Vai trò / bối cảnh: học viên chương trình AI20K, lớp K4B (VinUni) — Batch 02
 - Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
-  - Dự buổi lecture + buổi lab, mỗi buổi nhận 1-2 repo từ giảng viên
-  - Set up repo nộp bài: fork / use-template → clone → đổi tên đúng convention → mở IDE
-  - Ghi note buổi học vào `Note/YYYY_MM_DD/{lec,lab}/`
-  - Làm bài cá nhân + phối hợp nhóm 3-4 người cho bản nộp nhóm
-  - Theo dõi thông báo, deadline, cách nộp trong Discord lớp
+  - Dự lecture + lab, theo kịp bài giảng và ghi note
+  - Đọc tài liệu / notebook / paper kỹ thuật (phần lớn tiếng Anh) trước và sau buổi học
+  - Làm bài tập cá nhân + code, debug
+  - Làm bài tập lớn / báo cáo nhóm với 3-4 người
+  - Ôn tập tổng hợp kiến thức từ nhiều nguồn trước kỳ kiểm tra
 
 ---
 
@@ -22,20 +22,20 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Lặp lại | Set up repo nộp bài mỗi buổi: fork hoặc use-template → clone → đổi tên đúng convention `DayXX-MãHV-HọTên` → mở IDE | Mình + mọi học viên K4B, lặp lại mỗi buổi lab/lec | Ngày 12/09 mất ~15' cho 1 repo. Đã clone xong mới nhớ ra phải đổi tên theo convention → phải rename cả trên GitHub lẫn local; rename local còn fail vì VS Code đang giữ folder. 1-2 repo/buổi. ⚠️ đếm lại số buổi/tuần |
-| 2 | Lặp lại + Pain từ người khác | Tìm lại thông tin đã trao đổi trong Discord lớp (deadline, cách nộp, link repo, convention đặt tên) | Học viên trong lớp, nặng nhất với người vào muộn hoặc lỡ buổi | ⚠️ cần đo: số lần/tuần phải scroll tìm lại + screenshot 2-3 câu hỏi bị hỏi lặp trong channel |
-| 3 | Tốn thời gian | Điền worksheet lab dài trong timebox cứng: chuyển ý trong đầu thành đúng field của ~20 bảng markdown | Học viên trong 4 tiếng lab | Worksheet Day02 = 835 dòng, 7 phase. Phase 5 chỉ có 45' cho workflow trước/sau + Problem Statement 6 field. ⚠️ bấm giờ Phase 1-2 hôm nay để lấy số thật |
-| 4 | Pain từ người khác | Bản nộp nhóm phải copy thủ công sang repo cá nhân của từng người → dễ lệch phiên bản | Cả nhóm 3-4 người | README yêu cầu rõ: "mỗi học viên copy bản cuối vào repo cá nhân của mình" — handoff thủ công 3-4 lần/bài. ⚠️ hỏi nhóm đã từng nộp nhầm bản cũ chưa |
-| 5 | AI có thể tốt hơn | Ôn lại kiến thức khi note nằm rải rác nhiều định dạng: `lec_*.md`, notebook `.ipynb`, repo lab, slide, Discord | Mình + học viên ôn bài trước buổi kế tiếp | Folder `Note/` sau 2 buổi đã có 2 ngày × 3-5 nguồn khác định dạng, không có index chung. ⚠️ đo thời gian lần ôn gần nhất |
-| 6 | Tốn thời gian | Không biết bài nộp đã đủ field chưa: rubric và checklist nằm rải ở README và cuối worksheet | Học viên ngay trước giờ nộp | Rubric chia 8 thành phần chấm + 3 mục bonus (README); checklist tự kiểm 9 dòng nằm cuối worksheet, file khác. ⚠️ đếm số lần phải mở lại README để đối chiếu |
-| 7 | Lặp lại | Tạo folder ngày mới và phân loại note vào đúng `lec/` hay `lab/` mỗi buổi học | Mình | Cấu trúc `Note/YYYY_MM_DD/{lec,lab}` lặp y hệt mỗi buổi, làm tay 100%. ⚠️ đo thời gian mỗi lần |
-| 8 | Pain từ người khác | Trong 4 tiếng lab, nhóm không nhìn được ai đang làm phase nào, ai đã push, phần nào còn trống | Nhóm 3-4 người | ⚠️ quan sát ngay trong lab hôm nay: đếm số lần có người hỏi "phần đó xong chưa" hoặc "ai đang sửa file này" |
-| 9 | AI có thể tốt hơn | Đọc hiểu khái niệm kỹ thuật dài trước buổi lec để theo kịp bài giảng | Học viên chưa có nền ML | Buổi 11/09 có `lec_Self_attention_demo.ipynb` cần hiểu trước. ⚠️ đo thời gian đọc + đếm số thuật ngữ phải tra lại |
-| 10 | Tốn thời gian | Chuẩn bị môi trường chạy notebook/code lab (Python, dependency, kernel) mỗi khi đổi repo hoặc đổi máy | Học viên chạy code trong lab | ⚠️ đếm số lần gặp lỗi môi trường trong 2 buổi đầu và thời gian mất mỗi lần |
+| 1 | Tốn thời gian + AI có thể tốt hơn | Ôn tập tổng hợp kiến thức trước kỳ kiểm tra từ nhiều nguồn rời rạc (lecture note, notebook, slide, tài liệu) — phải tự nối lại thành mạch hiểu | Mình + học viên ôn thi | ⚠️ đo: mỗi lần ôn mất bao lâu, phải mở bao nhiêu nguồn, kỳ trước điểm/mức hiểu ra sao |
+| 2 | Tốn thời gian + AI có thể tốt hơn | Đọc hiểu tài liệu / paper kỹ thuật dài bằng tiếng Anh trước buổi học để theo kịp — nhiều thuật ngữ phải tra lại | Học viên chưa vững nền ML | ⚠️ đo: 1 tài liệu mất bao lâu để hiểu đủ dùng, mấy thuật ngữ phải tra, có bỏ dở giữa chừng không |
+| 3 | Tốn thời gian | Tìm và tổng hợp tài liệu cho bài tập lớn / báo cáo môn: gom nhiều nguồn, lọc cái liên quan, sắp thành dàn ý | Học viên làm project/báo cáo | ⚠️ đo: 1 bài mất mấy giờ ở khâu tìm + đọc + tổng hợp, xảy ra mấy lần/kỳ |
+| 4 | Lặp lại | Debug lỗi code bài tập (Python/ML): đọc traceback, tra lỗi, thử lại nhiều vòng | Học viên làm bài code | ⚠️ đo: trung bình 1 bug mất bao lâu, mấy bug/bài tập, loại lỗi nào lặp lại nhiều |
+| 5 | Pain từ người khác | Phối hợp bài tập nhóm: gom phần từng người, thống nhất format, ghép vào một bản cuối — dễ lệch nội dung và tốn qua lại | Cả nhóm 3-4 người | ⚠️ đo/hỏi nhóm: mất bao lâu ở khâu ghép, đã từng nộp nhầm bản cũ hoặc lệch định dạng chưa |
+| 6 | AI có thể tốt hơn | Tự kiểm tra bài trước khi nộp có đúng yêu cầu / rubric chưa: dễ sót field, sót phần | Học viên trước giờ nộp | ⚠️ đo: mấy lần bị trừ điểm vì thiếu phần, thời gian rà lại thủ công |
+| 7 | Tốn thời gian | Ghi note trong giờ học và cấu trúc lại cho dễ ôn — vừa nghe giảng vừa ghi thường không kịp | Học viên trong buổi lec | ⚠️ đo: sau buổi mất thêm bao lâu để dọn note, note có đủ để ôn lại không |
+| 8 | AI có thể tốt hơn | Luyện hiểu bài: tự sinh câu hỏi ôn, nhờ giải thích lại khái niệm khó theo cách dễ hiểu hơn | Học viên tự học | ⚠️ đo: hiện đang ôn kiểu gì, có công cụ tự kiểm tra không, khái niệm nào hay mắc |
+| 9 | Lặp lại + Pain từ người khác | Tìm lại thông báo / deadline / cách nộp trong khối lượng lớn tin nhắn lớp | Học viên, nặng nhất khi lỡ buổi | ⚠️ đo: mấy lần/tuần phải scroll tìm lại, có câu hỏi nào bị hỏi lặp trong lớp không |
+| 10 | Tốn thời gian + AI có thể tốt hơn | Dịch và nắm ý tài liệu chuyên ngành tiếng Anh khi cần nhanh — dịch máy thô thường sai thuật ngữ | Học viên đọc tài liệu tiếng Anh | ⚠️ đo: tần suất, thời gian mỗi lần, mức độ tin được bản dịch hiện tại |
 
-> **Trạng thái các dòng trên.** Dòng 1 là quan sát trực tiếp trong ngày 12/09 (có log thao tác thật). Dòng 3, 4, 5, 6, 7, 9 dựa trên bằng chứng đọc được từ repo và cấu trúc note (số dòng worksheet, yêu cầu trong README, số nguồn trong folder `Note/`) — pain là suy ra, cần mình xác nhận là có gặp thật. Dòng 2, 8, 10 hoàn toàn là giả thuyết, chưa có bằng chứng.
+> **Trạng thái các dòng trên.** Đây là các problem thường gặp của một học viên trong chương trình, viết ở mức chung để mình đối chiếu — chưa phải log thật của mình. Việc bắt buộc kế tiếp: giữ những dòng mình thật sự gặp, xoá dòng không đúng, và **tự đo mọi ô ⚠️**.
 >
-> Mọi ô đánh dấu ⚠️ là số mình phải tự đo, không được điền ước lượng. Rubric chấm `Dấu hiệu thật` bằng số + bằng chứng kiểm được, nên một con số bịa sẽ hỏng luôn phần metric ở Phase 5.
+> Rubric chấm cột `Dấu hiệu thật` bằng số + bằng chứng kiểm được (bấm giờ, đếm số lần, log, quote). Không điền số ước lượng hay bịa — một con số không kiểm được sẽ hỏng luôn phần metric ở Phase 5.
 
 > Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
