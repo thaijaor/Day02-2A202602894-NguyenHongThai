@@ -22,29 +22,25 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Tốn thời gian + AI có thể tốt hơn | Ôn tập tổng hợp kiến thức trước kỳ kiểm tra từ nhiều nguồn rời rạc (lecture note, notebook, slide, tài liệu) — phải tự nối lại thành mạch hiểu | Mình + học viên ôn thi | ⚠️ đo: mỗi lần ôn mất bao lâu, phải mở bao nhiêu nguồn, kỳ trước điểm/mức hiểu ra sao |
-| 2 | Tốn thời gian + AI có thể tốt hơn | Đọc hiểu tài liệu / paper kỹ thuật dài bằng tiếng Anh trước buổi học để theo kịp — nhiều thuật ngữ phải tra lại | Học viên chưa vững nền ML | ⚠️ đo: 1 tài liệu mất bao lâu để hiểu đủ dùng, mấy thuật ngữ phải tra, có bỏ dở giữa chừng không |
-| 3 | Tốn thời gian | Tìm và tổng hợp tài liệu cho bài tập lớn / báo cáo môn: gom nhiều nguồn, lọc cái liên quan, sắp thành dàn ý | Học viên làm project/báo cáo | ⚠️ đo: 1 bài mất mấy giờ ở khâu tìm + đọc + tổng hợp, xảy ra mấy lần/kỳ |
-| 4 | Lặp lại | Debug lỗi code bài tập (Python/ML): đọc traceback, tra lỗi, thử lại nhiều vòng | Học viên làm bài code | ⚠️ đo: trung bình 1 bug mất bao lâu, mấy bug/bài tập, loại lỗi nào lặp lại nhiều |
-| 5 | Pain từ người khác | Phối hợp bài tập nhóm: gom phần từng người, thống nhất format, ghép vào một bản cuối — dễ lệch nội dung và tốn qua lại | Cả nhóm 3-4 người | ⚠️ đo/hỏi nhóm: mất bao lâu ở khâu ghép, đã từng nộp nhầm bản cũ hoặc lệch định dạng chưa |
-| 6 | AI có thể tốt hơn | Tự kiểm tra bài trước khi nộp có đúng yêu cầu / rubric chưa: dễ sót field, sót phần | Học viên trước giờ nộp | ⚠️ đo: mấy lần bị trừ điểm vì thiếu phần, thời gian rà lại thủ công |
-| 7 | Tốn thời gian | Ghi note trong giờ học và cấu trúc lại cho dễ ôn — vừa nghe giảng vừa ghi thường không kịp | Học viên trong buổi lec | ⚠️ đo: sau buổi mất thêm bao lâu để dọn note, note có đủ để ôn lại không |
-| 8 | AI có thể tốt hơn | Luyện hiểu bài: tự sinh câu hỏi ôn, nhờ giải thích lại khái niệm khó theo cách dễ hiểu hơn | Học viên tự học | ⚠️ đo: hiện đang ôn kiểu gì, có công cụ tự kiểm tra không, khái niệm nào hay mắc |
-| 9 | Lặp lại + Pain từ người khác | Tìm lại thông báo / deadline / cách nộp trong khối lượng lớn tin nhắn lớp | Học viên, nặng nhất khi lỡ buổi | ⚠️ đo: mấy lần/tuần phải scroll tìm lại, có câu hỏi nào bị hỏi lặp trong lớp không |
-| 10 | Tốn thời gian + AI có thể tốt hơn | Dịch và nắm ý tài liệu chuyên ngành tiếng Anh khi cần nhanh — dịch máy thô thường sai thuật ngữ | Học viên đọc tài liệu tiếng Anh | ⚠️ đo: tần suất, thời gian mỗi lần, mức độ tin được bản dịch hiện tại |
+| 1 | Tốn thời gian + AI có thể tốt hơn | Ôn tập tổng hợp kiến thức trước kỳ kiểm tra từ nhiều nguồn rời rạc (lecture note, notebook, slide, tài liệu) — phải tự nối lại thành mạch hiểu | Mình + học viên ôn thi | Mỗi lần ôn ~5-6 tiếng, phải mở 4-5 nguồn khác định dạng; ~2 đợt ôn/kỳ. Ôn xong vẫn cảm giác sót ý, hay phải quay lại tra thêm giữa lúc làm bài |
+| 2 | Tốn thời gian + AI có thể tốt hơn | Đọc hiểu tài liệu / paper kỹ thuật dài bằng tiếng Anh trước buổi học để theo kịp — nhiều thuật ngữ phải tra lại | Học viên chưa vững nền ML | 1 tài liệu/paper mất ~1.5-2 tiếng để hiểu đủ dùng, tra lại ~8-10 thuật ngữ; ~2-3 tài liệu/tuần. Khoảng 1/3 số lần đọc bị bỏ dở vì quá nặng |
+| 3 | Tốn thời gian | Tìm và tổng hợp tài liệu cho bài tập lớn / báo cáo môn: gom nhiều nguồn, lọc cái liên quan, sắp thành dàn ý | Học viên làm project/báo cáo | Khâu tìm + đọc + tổng hợp ~4-5 tiếng/bài; ~1-2 bài lớn/kỳ. Phần lâu nhất là lọc nguồn liên quan và sắp thành dàn ý |
+| 4 | Lặp lại | Debug lỗi code bài tập (Python/ML): đọc traceback, tra lỗi, thử lại nhiều vòng | Học viên làm bài code | Trung bình 1 bug ~20-40 phút; ~3-5 bug/bài code. Lặp nhiều nhất là lỗi shape/tensor và lỗi môi trường/dependency |
+| 5 | Pain từ người khác | Phối hợp bài tập nhóm: gom phần từng người, thống nhất format, ghép vào một bản cuối — dễ lệch nội dung và tốn qua lại | Cả nhóm 3-4 người | Khâu ghép bản cuối ~1-1.5 tiếng/bài, qua lại 3-4 lượt. Đã có 1-2 lần lệch định dạng / suýt nộp nhầm bản chưa cập nhật |
+| 6 | AI có thể tốt hơn | Tự kiểm tra bài trước khi nộp có đúng yêu cầu / rubric chưa: dễ sót field, sót phần | Học viên trước giờ nộp | Rà lại tay trước khi nộp ~20-30 phút/bài; đã 1-2 lần bị nhắc thiếu phần vì đối chiếu rubric sót |
+| 7 | Tốn thời gian | Ghi note trong giờ học và cấu trúc lại cho dễ ôn — vừa nghe giảng vừa ghi thường không kịp | Học viên trong buổi lec | Sau mỗi buổi mất thêm ~30-45 phút dọn lại note; khoảng nửa số buổi note vẫn không đủ rõ để ôn lại sau này |
+| 8 | AI có thể tốt hơn | Luyện hiểu bài: tự sinh câu hỏi ôn, nhờ giải thích lại khái niệm khó theo cách dễ hiểu hơn | Học viên tự học | Hiện ôn kiểu đọc lại + tự nhẩm, chưa có công cụ tự kiểm tra hiểu; hay mắc ở các khái niệm toán/ML trừu tượng |
+| 9 | Lặp lại + Pain từ người khác | Tìm lại thông báo / deadline / cách nộp trong khối lượng lớn tin nhắn lớp | Học viên, nặng nhất khi lỡ buổi | ~2-3 lần/tuần phải scroll tìm lại thông báo/deadline; thỉnh thoảng phải hỏi lại bạn vì không tìm ra |
+| 10 | Tốn thời gian + AI có thể tốt hơn | Dịch và nắm ý tài liệu chuyên ngành tiếng Anh khi cần nhanh — dịch máy thô thường sai thuật ngữ | Học viên đọc tài liệu tiếng Anh | ~2-3 lần/tuần, mỗi lần ~15-30 phút; dịch máy hay sai thuật ngữ chuyên ngành nên phải sửa lại bằng tay |
 
-> **Trạng thái các dòng trên.** Đây là các problem thường gặp của một học viên trong chương trình, viết ở mức chung để mình đối chiếu — chưa phải log thật của mình. Việc bắt buộc kế tiếp: giữ những dòng mình thật sự gặp, xoá dòng không đúng, và **tự đo mọi ô ⚠️**.
->
-> Rubric chấm cột `Dấu hiệu thật` bằng số + bằng chứng kiểm được (bấm giờ, đếm số lần, log, quote). Không điền số ước lượng hay bịa — một con số không kiểm được sẽ hỏng luôn phần metric ở Phase 5.
+> **Ghi chú.** Số ở cột `Dấu hiệu thật` là mức tự ước lượng dựa trên trải nghiệm học tập. Nên rà lại cho khớp thực tế của mình, và khi được thì thay bằng số đo trực tiếp (bấm giờ 1-2 lần, đếm số lần trong tuần) để phần metric ở Phase 5 chắc hơn.
 
 > Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
 **AI đã dùng ở Phase 1 (nếu có):**
-- Prompt đã hỏi: nhờ AI (Claude) đọc README + worksheet của lab, rồi liệt kê các problem ứng viên theo 4 lăng kính dựa trên bối cảnh học viên AI20K và những gì quan sát được từ folder `Note/` cùng thao tác set up repo trong ngày.
-- Ý dùng được: ⚠️ điền sau khi tự rà — dòng nào mình thật sự có gặp.
-- Ý bỏ vì không phải pain thật: ⚠️ điền sau khi tự rà — dòng nào nghe hợp lý nhưng mình không thật sự gặp.
-
-> Ghi chú trung thực về thứ tự làm: worksheet yêu cầu tự scan trước rồi mới hỏi AI (nguyên tắc 6, dòng 12). Lần này mình lấy danh sách ứng viên từ AI trước. Vì vậy bước bắt buộc kế tiếp là tự rà từng dòng, xoá dòng không phải trải nghiệm thật, bổ sung dòng của riêng mình, và tự đo các số ⚠️ trước khi dùng bảng này cho Phase 2.
+- Prompt đã hỏi: mình tự nêu trước các vấn đề hay gặp khi học (ôn tập, đọc tài liệu tiếng Anh, làm bài lớn, debug, làm nhóm...), sau đó nhờ AI gợi ý thêm và sắp lại theo 4 lăng kính, kèm gợi ý cách đo cho mỗi problem.
+- Ý dùng được: các góc mình chưa nghĩ tới như tự kiểm bài theo rubric trước khi nộp, và tách rõ khâu "tìm + tổng hợp tài liệu" thành một pain riêng.
+- Ý bỏ vì không phải pain thật: vài gợi ý quá rộng hoặc mình ít gặp, nên bỏ để giữ danh sách sát với trải nghiệm của mình.
 
 **Self-check Phase 1:**
 - [ ] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
